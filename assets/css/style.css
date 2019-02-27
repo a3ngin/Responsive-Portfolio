@@ -221,11 +221,19 @@ input[type=submit] {
     display: flex;
     flex-wrap: wrap;
   }
+  nav {
+    position: relative;
+    left: -50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .column {
     flex: 50%;
+  }
+  nav {
+    position: relative;
+    left: -50px;
   }
 }
 
@@ -245,5 +253,8 @@ input[type=submit] {
   head {
     float: center;
    text-align:center;
+  }
+  nav {
+    padding-left: 20px
   }
 } 
