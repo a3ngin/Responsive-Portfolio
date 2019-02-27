@@ -217,12 +217,16 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  
-  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
+  .column {
+    flex: 50%;
+  }
 
 }
 
@@ -230,5 +234,7 @@ input[type=submit] {
   header{ 
     position: static;
   }
-
+  .row {
+    flex-direction: column;
+  }
 }
