@@ -216,7 +216,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -227,7 +227,6 @@ input[type=submit] {
   .column {
     flex: 50%;
   }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -237,4 +236,14 @@ input[type=submit] {
   .row {
     flex-direction: column;
   }
-}
+  .auth-image{
+    width: 100%;
+  }
+  .container{
+    text-align: center;
+  }
+  head {
+    float: center;
+   text-align:center;
+  }
+} 
